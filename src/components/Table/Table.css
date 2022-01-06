@@ -1,0 +1,31 @@
+table {
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    width: 100%;
+}
+
+.thead,
+tr {
+    background-color: rgba(167, 231, 175, 0.2);
+}
+
+.tr,
+th {
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(167, 231, 175, 0.2);
+}
+
+td {
+    padding: 0.5rem;
+}
+
+tr td:nth-child(1), tr td:nth-child(2) {
+    text-align: center;
+}
+
+tbody,
+tr:nth-child(odd) {
+    background-color: white;
+}
