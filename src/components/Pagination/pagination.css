@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 0 0;
+}
+
+.selectedPage {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.pageNumber {
+    padding: 0 5px;
+}
+
+.btnDefault {
+    outline: none;
+    background: rgba(167, 231, 175, 0.2);
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+

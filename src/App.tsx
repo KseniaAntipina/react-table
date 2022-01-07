@@ -28,8 +28,10 @@ function App() {
     } else {
         return (
             <div className="app">
-                <h1>Table comments</h1>
-                <Table data={data}/>
+                <div className="container">
+                    <h1>Table comments</h1>
+                    <Table data={data}/>
+                </div>
             </div>
         );
     }
@@ -38,7 +40,6 @@ function App() {
 export default App;
 
 export interface Comment {
-    postId: number;
     id: number;
     name: string;
     email: string;
