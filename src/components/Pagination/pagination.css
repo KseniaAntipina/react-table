@@ -7,10 +7,12 @@
 .selectedPage {
     font-weight: bold;
     padding: 0 5px;
+    cursor: pointer;
 }
 
 .pageNumber {
     padding: 0 5px;
+    cursor: pointer;
 }
 
 .btnDefault {
